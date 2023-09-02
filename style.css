@@ -1,0 +1,123 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+}
+.container{
+    width: 1440px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 43px;
+    padding-left: 30px;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    padding-top: 66px;
+    font-size: 22px;
+}
+
+.links a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    margin: 20px;
+}
+.links a:hover{
+    color: hsl(5, 85%, 63%);;
+}
+.side a{
+    color: white;
+    text-decoration: none;
+}
+.side a:hover{
+    color: hsl(35, 77%, 62%);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.above{
+    display: flex;
+    flex-direction: row;
+}
+.main{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+}
+.header img{
+    max-width: 930px;
+}
+
+.side{
+    width: 350px;
+    background-color: hsl(240, 100%, 5%);
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    height: 600px;
+}
+
+.side h1{
+    color: hsl(35, 77%, 62%);
+    font-size: 43px;
+}
+
+.lines{
+    display: flex;
+    flex-direction: row;
+}
+.c{
+    width: 50%;
+    font-size: 20px;
+    color: hsl(236, 13%, 42%);
+}
+.side p{
+    margin-bottom: 30px;
+}
+.q{
+    font-size: 30px;
+    width: 60%;
+}
+
+button
+{
+    background: hsl(5, 85%, 63%);
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin: 15px;
+    padding: 10px;
+    width: 200px;
+}
+button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.below{
+    display: flex;
+    flex-direction: row;
+}
+.x{
+    display: flex;
+    flex-direction: row;
+}
+.x h1{
+    color: hsl(233, 8%, 79%);
+}
+.details a{
+    color: hsl(240, 100%, 5%);
+    text-decoration: none;
+}
+.details a:hover{
+    color: hsl(5, 85%, 63%);
+}
